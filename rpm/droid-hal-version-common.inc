@@ -7,7 +7,7 @@
 %define have_led 1 
 
 BuildRequires: droid-system-%{rpm_device}
-BuildRequires: droid-configs-%{rpm_device}
+BuildRequires: droid-config-%{rpm_device}
 # Shared between the adaptations
 BuildRequires: droid-hal-f5121
 BuildRequires: droid-hal-f5121-img-boot

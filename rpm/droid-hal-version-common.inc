@@ -6,3 +6,9 @@
 %define have_vibrator_native 1 
 %define have_led 1 
 
+BuildRequires: droid-system-%{rpm_device}
+BuildRequires: droid-configs-%{rpm_device}
+# Shared between the adaptations
+BuildRequires: droid-hal-f5121
+BuildRequires: droid-hal-f5121-img-boot
+BuildRequires: droid-hal-f5121-img-recovery

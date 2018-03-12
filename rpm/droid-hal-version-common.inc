@@ -8,6 +8,10 @@
 
 BuildRequires: droid-system-%{rpm_device}
 BuildRequires: droid-config-%{rpm_device}
+BuildRequires: droid-config-%{rpm_device}-flashing
+BuildRequires: droid-config-%{rpm_device}-preinit-plugin
+BuildRequires: droid-config-%{rpm_device}-pulseaudio-settings
+BuildRequires: droid-config-%{rpm_device}-bluez5
 # Shared between the adaptations
 BuildRequires: droid-hal-f5121
 BuildRequires: droid-hal-f5121-img-boot

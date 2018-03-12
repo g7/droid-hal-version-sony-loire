@@ -1,6 +1,6 @@
-%define rpm_device f5121
+%define rpm_device f5122
 
-%define device_pretty Xperia X
+%define device_pretty Xperia X Dual SIM
 
 %include rpm/droid-hal-version-common.inc
 %include droid-hal-version/droid-hal-version.inc
